@@ -1,0 +1,828 @@
+/*Адаптивность*/
+
+@media screen and (max-width: 1024px){
+
+.menu {
+    left: 21%;
+}
+.overlay h2 {
+    font-size: 59px;
+    margin-top: 19%;
+}
+
+.overlay h3 {
+    color: #6495ed;
+    font-size: 55px;
+}
+
+.overlay p {
+    font-size: 35px;
+    padding-top: 7px;
+}
+
+.social {
+    top: 87%;
+    left: 28.3%;
+}
+
+.owl-dots {
+    margin-top: 60px;
+    top: -100px;
+    left: 31%;
+}
+
+.bullet-item span {
+    font-size: 8.5em;
+}
+
+.bulletsBlock > div:hover span.iconBullet {
+    font-size: 6.0em;
+}
+
+.bootstrap {
+    height: 120px;
+    width: 120px;
+}
+
+.bulletsBlock > div {
+    padding-bottom: 34.7%;
+}
+
+.hideText {
+    font-size: 1.04em;
+}
+
+.my-foto {
+    height: 266px;
+    width: 400px;
+    margin-top: 73px;
+}
+
+.contact .fas {
+    font-size: 37px;
+}
+}
+
+@media screen and (max-width: 768px){
+ .menu {
+    left: 13%;
+}
+
+.menu-block ul {
+    margin-top: 20px;
+}
+
+.overlay h2 {
+    font-size: 45px;
+    margin-top: 19%;
+}
+
+.overlay h3 {
+    color: #6495ed;
+    font-size: 40px;
+}
+
+.overlay p {
+    font-size: 25px;
+    padding-top: 7px;
+}
+
+.social {
+    top: 87%;
+    left: 26%;
+}
+
+.social a {
+    font-size: 27px;
+}
+
+.owl-dots {
+    margin-top: 60px;
+    top: -100px;
+    left: 25%;
+}
+
+.bullet-item span {
+    font-size: 5.5em;
+}
+
+.bulletsBlock > div {
+    padding-bottom: 40.7%;
+}
+
+.bootstrap {
+    height: 100px;
+    width: 100px;
+    margin-top: 17px;
+}
+
+.avocode {
+    height: 124px;
+    width: 87px;
+}
+
+.titleBullet {
+    font-size: 2.0em;
+}
+.hideText {
+    line-height: 1.3em;
+    font-size: 0.80em;
+    padding: 2em 0;
+}
+.my-foto {
+    height: 266px;
+    width: 400px;
+    margin-top: 0px;
+    margin-left: -1%;
+}
+
+.contact .fas {
+    font-size: 37px;
+}   
+
+.contact {
+    margin-left: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.contacts h2 {
+    padding: 30px;
+}
+
+.my-foto {
+    height: 266px;
+    width: 400px;
+    margin-top: 0px;
+}
+
+.contact .fas {
+    font-size: 35px;
+    margin-left: 0;
+}
+
+.contact span {
+    margin-left: 14px;
+}
+
+.cont h3 {
+    font-size: 40px;
+    margin-left: 7%;
+}
+
+.cont p {
+    font-size: 25px;
+    margin-left: 0;
+    padding-top: 9px;
+    padding-bottom: 15px;
+}
+
+.resume p {
+    font-size: 21px;
+    margin-left: 0;
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+}
+
+@media screen and (max-width: 425px){
+
+.fullscreen-bg {
+    padding-top: 56%;
+}
+
+.menu {
+    left: -14%
+}
+
+.menu-block ul {
+    margin-top: 55%;
+}
+
+.social {
+    top: 75%;
+    left: 18%;
+}
+
+.social a {
+    font-size: 28px;
+    margin-left: 8px;
+}
+
+.menu-block li {
+    height: 110px;
+    width: 110px;
+}
+
+.second {
+    display: block;
+    background-image: url(../media/stars.png);
+    width: 100%;
+    height: 280px;
+}
+
+.round {
+    padding-top: 31px;
+    font-size: 20px;
+}
+
+.round span.round {
+    display: none;
+}
+
+.round:hover{
+    font-size: 20px;
+}
+
+.overlay h2 {
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.overlay h3 {
+    font-size: 25px;
+}
+
+.overlay p {
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.project h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 95px;
+}
+
+.project p {
+    font-size: 15px;
+}
+
+.owl-dots {
+    margin-top: 60px;
+    top: -100px;
+    left: 11%;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    margin-left: 18px;
+}
+
+#about{
+    background-color: blue;
+}
+
+.skills h3 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+.bulletsBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.bulletsBlock {
+    width: 77%;
+}
+
+.bulletsBlock > div {
+    margin-left: 0;
+    margin-bottom: 35px;
+}
+
+.bullet-item span {
+    line-height: 1.5em;
+    font-size: 7.5em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.titleBullet {
+    line-height: 2.5em;
+    font-size: 1.9em;
+    background: #3B3B3B;
+    z-index: 10;
+}
+
+.hideText {
+    line-height: 1.3em;
+    font-size: 1em;
+    padding: 2em 0;
+    background: #3B3B3B;
+    font-weight: 300;
+    z-index: 8;
+    height: 100px;
+    -webkit-transition: all 0.35s linear 0.2s;
+    -o-transition: all 0.35s linear 0.2s;
+    transition: all 0.35s linear 0.2s;
+}
+
+.bulletsBlock > div {
+    width: 100%;
+    float: left;
+    background: rgba(0,0,0,0.3);
+    margin-left: 0%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 100.7%;
+    cursor: pointer;
+    -webkit-transition: all 0.35s linear;
+    -o-transition: all 0.35s linear;
+    transition: all 0.35s linear;
+}
+
+.contact {
+    margin-left: 17%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contacts h2 {
+    padding: 30px;
+}
+
+.my-foto {
+    height: 183px;
+    width: 275px;
+}
+
+.contact .fas {
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.contact span {
+    margin-left: 14px;
+}
+
+.cont h3 {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.cont p {
+    font-size: 17px;
+    margin-left: 0;
+    padding-top: 9px;
+    padding-bottom: 15px;
+}
+
+.resume p {
+    font-size: 17px;
+    margin-left: 0;
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+
+.cont a {
+    padding: 20px 17px;
+}
+
+.contact-footer {
+    padding-bottom: 20px;
+}
+
+.contact-footer a {
+    font-size: 33px;
+    margin-left: 7px;
+}
+}
+
+@media screen and (max-width: 375px){
+
+.fullscreen-bg {
+    padding-top: 56%;
+}
+
+.menu {
+    left: -16%;
+}
+
+.menu-block ul {
+    margin-top: 59%;
+}
+
+.social {
+    top: 75%;
+    left: 14%;
+}
+
+.social a {
+    font-size: 28px;
+    margin-left: 8px;
+}
+
+.menu-block li {
+    height: 100px;
+    width: 100px;
+}
+
+.second {
+    display: block;
+    background-image: url(../media/stars.png);
+    width: 100%;
+    height: 280px;
+}
+
+.round {
+    padding-top: 31px;
+    font-size: 20px;
+}
+
+.round span.round {
+    display: none;
+}
+
+.round:hover{
+    font-size: 20px;
+}
+
+.overlay h2 {
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.overlay h3 {
+    font-size: 25px;
+}
+
+.overlay p {
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.project h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 95px;
+}
+
+.project p {
+    font-size: 15px;
+}
+
+.owl-dots {
+    margin-top: 60px;
+    top: -100px;
+    left: 6%;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    margin-left: 18px;
+}
+
+.skills h3 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+.bulletsBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.bulletsBlock > div {
+    margin-left: 0;
+    margin-bottom: 35px;
+}
+
+.bullet-item span {
+    line-height: 1.5em;
+    font-size: 7.5em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.titleBullet {
+    line-height: 2.5em;
+    font-size: 1.9em;
+    background: #3B3B3B;
+    z-index: 10;
+}
+
+.hideText {
+    line-height: 1.3em;
+    font-size: 1em;
+    padding: 2em 0;
+    background: #3B3B3B;
+    font-weight: 300;
+    z-index: 8;
+    height: 100px;
+    -webkit-transition: all 0.35s linear 0.2s;
+    -o-transition: all 0.35s linear 0.2s;
+    transition: all 0.35s linear 0.2s;
+}
+
+.bulletsBlock > div {
+    width: 100%;
+    float: left;
+    background: rgba(0,0,0,0.3);
+    margin-left: 0%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 100.7%;
+    cursor: pointer;
+    -webkit-transition: all 0.35s linear;
+    -o-transition: all 0.35s linear;
+    transition: all 0.35s linear;
+}
+
+.contact {
+    margin-left: 15%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contacts h2 {
+    padding: 30px;
+}
+
+.my-foto {
+    height: 183px;
+    width: 275px;
+}
+
+.contact .fas {
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.contact span {
+    margin-left: 14px;
+    font-size: 24px;
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.cont h3 {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.cont p {
+    font-size: 17px;
+    margin-left: 0;
+    padding-top: 9px;
+    padding-bottom: 15px;
+}
+
+.resume p {
+    font-size: 17px;
+    margin-left: 0;
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+
+.cont a {
+    padding: 20px 60px;
+}
+
+.contact-footer {
+    padding-bottom: 20px;
+}
+
+.contact-footer a {
+    font-size: 33px;
+    margin-left: 7px;
+}
+}
+
+
+@media screen and (max-width: 320px){
+
+.fullscreen-bg {
+	padding-top: 56%;
+}
+
+.menu {
+    left: -16%;
+}
+
+.menu-block ul {
+    margin-top: 59%;
+}
+
+.social {
+    top: 75%;
+    left: 9%;
+}
+
+.social a {
+    font-size: 28px;
+    margin-left: 8px;
+}
+
+.menu-block li {
+	height: 100px;
+	width: 100px;
+}
+
+.second {
+	display: block;
+    background-image: url(../media/stars.png);
+	width: 100%;
+	height: 280px;
+}
+
+.round {
+	padding-top: 31px;
+	font-size: 20px;
+}
+
+.round span.round {
+	display: none;
+}
+
+.round:hover{
+	font-size: 20px;
+}
+
+.overlay h2 {
+	font-size: 25px;
+    margin-top: 5%;
+}
+
+.overlay h3 {
+	font-size: 25px;
+}
+
+.overlay p {
+	font-size: 18px;
+    padding-top: 3px;
+}
+
+.project h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 95px;
+}
+
+.project p {
+    font-size: 15px;
+}
+
+.owl-dots {
+    margin-top: 60px;
+    top: -100px;
+    left: 0%;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    margin-left: 18px;
+}
+
+#about{
+	background-color: blue;
+}
+
+.skills h3 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+.bulletsBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.bulletsBlock > div {
+    margin-left: 0;
+    margin-bottom: 35px;
+}
+
+.bullet-item span {
+    line-height: 1.5em;
+    font-size: 9.5em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.titleBullet {
+    line-height: 2.5em;
+    font-size: 1.9em;
+    background: #3B3B3B;
+    z-index: 10;
+}
+
+.hideText {
+    line-height: 1.3em;
+    font-size: 0.9em;
+    padding: 2em 0;
+    background: #3B3B3B;
+    font-weight: 300;
+    z-index: 8;
+    height: 100px;
+    -webkit-transition: all 0.35s linear 0.2s;
+    -o-transition: all 0.35s linear 0.2s;
+    transition: all 0.35s linear 0.2s;
+}
+
+.bulletsBlock > div {
+    width: 100%;
+    float: left;
+    background: rgba(0,0,0,0.3);
+    margin-left: 0%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 120.7%;
+    cursor: pointer;
+    -webkit-transition: all 0.35s linear;
+    -o-transition: all 0.35s linear;
+    transition: all 0.35s linear;
+}
+
+.contact {
+    margin-left: 7%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contacts h2 {
+    padding: 30px;
+}
+
+.my-foto {
+    height: 183px;
+    width: 275px;
+}
+
+.contact .fas {
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.contact span {
+    margin-left: 14px;
+}
+
+.cont h3 {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.cont p {
+    font-size: 17px;
+    margin-left: 0;
+    padding-top: 9px;
+    padding-bottom: 15px;
+}
+
+.resume p {
+    font-size: 17px;
+    margin-left: 0;
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+
+.cont a {
+    padding: 16px 63px;
+}
+
+.contact-footer {
+    padding-bottom: 20px;
+}
+
+.contact-footer a {
+    font-size: 35px;
+    margin-left: 7px;
+}
+}
