@@ -1,0 +1,2639 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* top */
+.top {
+  background: url(../images/football_19201.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logo-svg {
+  width: 191px;
+  height: 52px;
+  padding-top: 45px;
+}
+
+.top-text-up h2 {
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 277px 0 0 184px;
+}
+
+.top-text-up-down h2 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 89px;
+  text-align: start;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding-left: 33%;
+  padding-bottom: 208px;
+}
+
+/* download-apps */
+.download-apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 110px;
+}
+
+.app-store a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 311px;
+  height: 77px;
+  background-color: #5e42b0;
+  border-radius: 52px;
+  margin-right: 53px;
+}
+
+#apple {
+  width: 51px;
+  height: 49px;
+  margin-top: -7px;
+  margin-left: -27px;
+}
+
+.app-text {
+  padding-left: 21px;
+}
+
+.app-store p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #fff;
+}
+
+.app-store span {
+  font-weight: 700;
+}
+
+.google-play a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 311px;
+  height: 77px;
+  background-color: #5e42b0;
+  border-radius: 52px;
+}
+
+#play {
+  width: 51px;
+  height: 45px;
+  padding-left: 28px;
+}
+
+.play-text {
+  padding-left: 21px;
+}
+
+.google-play p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #fff;
+  padding-right: 61px;
+}
+
+.google-play span {
+  font-weight: 700;
+}
+
+/* athlets */
+.athlets {
+  position: relative;
+  width: 100%;
+}
+
+.athlets-text h2 {
+  color: #e7e7e7;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 115px 0 95px 52%;
+}
+
+.footballer {
+  position: absolute;
+  top: 9%;
+  left: -30%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.rectangle {
+  width: 21px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+.rectangle-bg {
+  width: 22px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #efefef;
+}
+
+.connection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 38%;
+  padding-bottom: 54px;
+  padding-left: 52%;
+}
+
+.connection-bg {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+.connection-bg p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+
+.connection-text h3 {
+  color: #c1c1c1;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  padding-top: 4px;
+  padding-bottom: 20px;
+}
+
+.connection-text p {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  margin-left: -30px;
+}
+
+.collaboration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #f5f4fa;
+  padding: 60px 0 54px 52%;
+}
+
+.collaboration-bg {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+.collaboration-bg p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding-top: 1px;
+}
+
+.collaboration-text h3 {
+  color: #c1c1c1;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-top: -6px;
+  padding-bottom: 18px;
+}
+
+.collaboration-text p {
+  width: 82%;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 1.4px;
+  margin-left: -30px;
+}
+
+.growth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #5e42b0;
+  padding: 61px 0 60px 52%;
+}
+
+.growth-bg {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+.growth-bg p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.growth-text h3 {
+  color: #c1c1c1;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  margin-top: -6px;
+  padding-bottom: 18px;
+}
+
+.growth-text p {
+  width: 82%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1.36px;
+  line-height: 24px;
+  margin-left: -33px;
+}
+
+/* player */
+.player {
+  position: relative;
+  width: 100%;
+}
+
+.player-text {
+  padding-left: 9.5%;
+}
+
+.player-text h2 {
+  color: #e7e7e7;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 115px 0 108px 0;
+}
+
+.rectangle-bs {
+  width: 22px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+.rectangle-bs-bg {
+  width: 20px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #efefef;
+}
+
+.connection-bs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-bottom: 54px;
+  padding-left: 9%;
+}
+
+.connection-bs-bg {
+  padding-right: 8px;
+  padding-left: 18px;
+}
+
+.connection-bs-bg p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-top: 1px;
+}
+
+.connection-bs-text {
+  width: 64%;
+}
+
+.connection-bs-text h3 {
+  color: #c1c1c1;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  margin-top: -4px;
+  padding-bottom: 20px;
+}
+
+.connection-bs-text p {
+  width: 70%;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  line-height: 1.3;
+  margin-left: -30px;
+}
+
+.collaboration-bs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #f5f4fa;
+  padding: 60px 0 83px 9%;
+}
+
+.collaboration-width {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collaboration-bs-bg {
+  padding-right: 8px;
+  padding-left: 22px;
+}
+
+.collaboration-bs-bg p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding-top: 1px;
+}
+
+.collaboration-bs-text {
+  width: 43%;
+}
+
+.collaboration-bs-text h3 {
+  color: #c1c1c1;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-top: -6px;
+  padding-bottom: 24px;
+}
+
+.collaboration-bs-text p {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  margin-left: -30px;
+}
+
+.growth-bs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #5e42b0;
+  padding: 61px 0 54px 9%;
+}
+
+.growth-width {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.growth-bs-bg {
+  padding-right: 8px;
+  padding-left: 22px;
+}
+
+.growth-bs-bg p {
+  color: #9173e6;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.growth-bs-text {
+  width: 43%;
+}
+
+.growth-bs-text h3 {
+  color: #c1c1c1;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -6px;
+  padding-bottom: 21px;
+}
+
+.growth-bs-text p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  margin-left: -34px;
+}
+
+.basketballer {
+  position: absolute;
+  top: -17px;
+  left: 0;
+  right: -35%;
+  bottom: 0;
+  margin: auto;
+}
+
+.be-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.container-foto {
+  width: 100%;
+  max-width: 960px;
+}
+
+.foto-ba {
+  width: 100%;
+  height: auto;
+}
+
+img.foto-ba alt {
+  font-size: 30px;
+}
+
+.foto-fc {
+  width: 100%;
+  height: auto;
+}
+
+.foto-wi {
+  width: 100%;
+  height: auto;
+}
+
+.rectangle-ba {
+  position: absolute;
+  width: 168px;
+  top: 211px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.block-ba {
+  background-color: #5e42b0;
+  padding: 61px 73px 61px 71px;
+}
+
+.block-ba p {
+  color: #f5f6f7;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 17.49px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.rectangle-one {
+  width: 25px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  opacity: 0.3;
+  margin-top: 7px;
+}
+
+.be-active-text h2 {
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 258px 0 115px 122px;
+}
+
+.be-active-text p {
+  width: 67%;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.7px;
+  padding-left: 125px;
+}
+
+.find-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.rectangle-fc {
+  position: absolute;
+  width: 168px;
+  top: 211px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.block-fc {
+  background-color: #5e42b0;
+  padding: 61px 73px 63px 71px;
+}
+
+.block-fc p {
+  color: #f5f6f7;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 17.49px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.rectangle-two {
+  width: 28px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  opacity: 0.3;
+  margin-top: 7px;
+}
+
+.find-contact-text {
+  width: 44%;
+}
+
+.find-contact-text h2 {
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 265px 0 66px 190px;
+}
+
+.find-contact-text p {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.8px;
+  padding-left: 191px;
+}
+
+.work-it {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.rectangle-wi {
+  position: absolute;
+  width: 168px;
+  top: 211px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.block-wi {
+  background-color: #5e42b0;
+  padding: 64px 73px 61px 71px;
+}
+
+.block-wi p {
+  color: #f5f6f7;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 17.49px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.rectangle-three {
+  width: 27px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  opacity: 0.3;
+  margin-top: 7px;
+}
+
+.work-it-text h2 {
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 260px 0 107px 127px;
+}
+
+.work-it-text p {
+  width: 68%;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.8px;
+  padding-left: 124px;
+}
+
+.footer {
+  background: url(../images/game_19201.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer-logo-icon {
+  padding: 242px 15px 0 31px;
+}
+
+.footer-text {
+  padding: 241px 0 0 0;
+}
+
+.footer-text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 77px;
+  text-transform: uppercase;
+  letter-spacing: 4.41px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.footer-text p {
+  color: #a496ca;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.49px;
+  text-transform: uppercase;
+}
+
+/* download-apps */
+.footer-download-apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 135px;
+  margin-bottom: 219px;
+}
+
+.footer-app-store a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 311px;
+  height: 77px;
+  background-color: #5e42b0;
+  border-radius: 52px;
+  margin-right: 53px;
+}
+
+#footer-apple {
+  width: 51px;
+  height: 49px;
+  margin-top: -7px;
+  margin-left: -26px;
+}
+
+.footer-app-text {
+  padding-left: 21px;
+}
+
+.footer-app-store p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #fff;
+}
+
+.footer-app-store span {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.footer-google-play a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 311px;
+  height: 77px;
+  background-color: #5e42b0;
+  border-radius: 52px;
+}
+
+#footer-play {
+  width: 51px;
+  height: 45px;
+  padding-left: 21px;
+}
+
+.footer-play-text {
+  padding-left: 21px;
+}
+
+.footer-google-play p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #fff;
+  padding-right: 61px;
+}
+
+.footer-google-play span {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
+
+#footer-logo-svg {
+  width: 191px;
+  height: 52px;
+  padding-top: 45px;
+}
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .connection-bs-text {
+    width: 61%;
+  }
+
+  .collaboration-bs-text {
+    width: 100%;
+  }
+
+  .growth-bs-text {
+    width: 100%;
+  }
+
+  .container-foto {
+    max-width: 1280px;
+  }
+
+  .be-active-text, .find-contact-text, .work-it-text {
+    width: 100%;
+  }
+
+  .find-contact-text p {
+    width: 66%;
+  }
+}
+@media (max-width: 1920px) {
+  .collaboration-bs-text {
+    width: 95%;
+  }
+
+  .growth-bs-text {
+    width: 95%;
+  }
+
+  .container-foto {
+    max-width: 960px;
+  }
+
+  .be-active-text, .find-contact-text, .work-it-text {
+    width: 100%;
+  }
+
+  .find-contact-text p {
+    width: 66%;
+  }
+}
+@media (max-width: 1720px) {
+  .footballer {
+    width: 444px;
+    height: 699px;
+  }
+
+  .basketballer {
+    top: -116px;
+    width: 689px;
+    height: 570px;
+  }
+}
+@media (max-width: 1440px) {
+  .footballer {
+    left: -47%;
+  }
+
+  .collaboration-bs-text {
+    width: 80%;
+  }
+
+  .be-active-text h2, .work-it-text h2 {
+    padding-top: 114px;
+  }
+
+  .be-active-text h2 {
+    padding-bottom: 105px;
+  }
+
+  .find-contact-text h2 {
+    padding-top: 111px;
+    padding-left: 130px;
+    padding-bottom: 50px;
+  }
+
+  .find-contact-text p {
+    padding-left: 134px;
+  }
+}
+@media (max-width: 1360px) {
+  .rectangle-ba, .rectangle-fc, .rectangle-wi {
+    top: 32%;
+  }
+
+  .be-active-text h2, .find-contact-text h2, .work-it-text h2 {
+    padding-bottom: 20px;
+  }
+
+  .rectangle-ba {
+    width: 116px;
+  }
+
+  .block-ba {
+    padding: 43px 44px 41px 45px;
+  }
+
+  .rectangle-fc {
+    width: 116px;
+  }
+
+  .block-fc {
+    padding: 43px 44px 43px 45px;
+  }
+
+  .rectangle-wi {
+    width: 116px;
+  }
+
+  .block-wi {
+    padding: 43px 44px 44px 45px;
+  }
+
+  .find-contact-text h2 {
+    padding-left: 132px;
+  }
+
+  .find-contact-text p {
+    padding-left: 135px;
+  }
+}
+@media (max-width: 1166px) {
+  .basketballer {
+    top: -274px;
+    right: -25%;
+  }
+
+  .find-contact-text h2 {
+    padding-left: 30px;
+  }
+
+  .find-contact-text p {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 960px) {
+  .footballer {
+    left: -88%;
+  }
+
+  .player {
+    overflow: hidden;
+  }
+
+  .basketballer {
+    right: -76%;
+  }
+
+  .be-active {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .container-foto {
+    max-width: 960px;
+  }
+
+  .rectangle-ba {
+    width: 116px;
+    top: 61%;
+    left: 32px;
+    margin: 0;
+  }
+
+  .block-ba {
+    padding: 43px 44px 41px 45px;
+  }
+
+  .be-active-text h2 {
+    padding: 100px 0 33px 26px;
+  }
+
+  .be-active-text p {
+    width: 89%;
+    padding-bottom: 97px;
+    padding-left: 31px;
+  }
+
+  .find-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .rectangle-fc {
+    width: 116px;
+    top: 61%;
+    left: 32px;
+    margin: 0;
+  }
+
+  .block-fc {
+    padding: 43px 44px 43px 45px;
+  }
+
+  .find-contact-text {
+    width: 88%;
+  }
+
+  .find-contact-text h2 {
+    padding: 100px 0 33px 26px;
+  }
+
+  .find-contact-text p {
+    padding-bottom: 104px;
+    padding-left: 34px;
+  }
+
+  .work-it {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .rectangle-wi {
+    width: 116px;
+    top: 59%;
+    left: 32px;
+    margin: 0;
+  }
+
+  .block-wi {
+    padding: 43px 44px 44px 45px;
+  }
+
+  .work-it-text h2 {
+    padding: 100px 0 31px 33px;
+  }
+
+  .work-it-text p {
+    width: 89%;
+    padding-bottom: 111px;
+    padding-left: 32px;
+  }
+
+  .footer-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  #footer-logo-icon {
+    padding: 143px 15px 0 47px;
+  }
+
+  .footer-text {
+    padding: 73px 0 0 10px;
+  }
+
+  .footer-text h2 {
+    line-height: 52px;
+  }
+
+  .footer-text p {
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: -1.3px;
+    padding-left: 32px;
+  }
+
+  .footer-download-apps {
+    margin-top: 271px;
+    margin-bottom: 12px;
+  }
+
+  .footer-app-store a {
+    margin-right: 32px;
+  }
+}
+@media (max-width: 938px) {
+  .rectangle-ba, .rectangle-fc {
+    top: 60%;
+  }
+
+  .rectangle-wi {
+    top: 57%;
+  }
+}
+@media (max-width: 872px) {
+  .rectangle-ba {
+    top: 57%;
+  }
+
+  .rectangle-fc {
+    top: 56%;
+  }
+
+  .rectangle-wi {
+    top: 55%;
+  }
+}
+@media (max-width: 768px) {
+  #logo-svg {
+    width: 205px;
+    height: 56px;
+    padding-top: 41px;
+  }
+
+  .top-text-up h2 {
+    font-size: 64px;
+    padding: 166px 0 0 85px;
+  }
+
+  .top-text-up-down h2 {
+    font-size: 64px;
+    line-height: 79px;
+    padding-bottom: 296px;
+    padding-left: 25%;
+  }
+
+  .download-apps {
+    padding-bottom: 91px;
+  }
+
+  .app-store a {
+    margin-right: 34px;
+  }
+
+  #apple {
+    margin-left: -22px;
+  }
+
+  .app-text {
+    padding-left: 18px;
+  }
+
+  .athlets {
+    overflow: hidden;
+  }
+
+  .footballer {
+    top: 17%;
+    left: -86%;
+    width: 444px;
+    height: 699px;
+  }
+
+  .athlets-text h2 {
+    padding: 91px 0 40px 38%;
+  }
+
+  .connection {
+    width: 66%;
+    padding-left: 36.5%;
+    padding-bottom: 33px;
+  }
+
+  .connection-text h3 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding-top: 9px;
+    padding-bottom: 19px;
+  }
+
+  .connection-text p {
+    width: 96%;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1.1px;
+  }
+
+  .collaboration {
+    padding: 36px 0 32px 36.5%;
+  }
+
+  .collaboration-text h3 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-top: -2px;
+    padding-bottom: 20px;
+  }
+
+  .collaboration-text p {
+    width: 96%;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-left: -28px;
+  }
+
+  .growth {
+    padding: 39px 0 29px 36.5%;
+  }
+
+  .growth-text h3 {
+    font-size: 32px;
+    margin-top: -4px;
+    padding-bottom: 21px;
+  }
+
+  .growth-text p {
+    width: 98%;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+
+  .player {
+    overflow: hidden;
+  }
+
+  .basketballer {
+    top: -12%;
+    left: 0;
+    width: 689px;
+    height: 570px;
+  }
+
+  .player-text {
+    padding-left: 0;
+  }
+
+  .player-text h2 {
+    padding: 87px 0 53px 28px;
+  }
+
+  .connection-bs {
+    padding-bottom: 29px;
+    padding-left: 2%;
+  }
+
+  .connection-bs-text {
+    width: 100%;
+  }
+
+  .connection-bs-text h3 {
+    font-size: 32px;
+    margin-top: 0px;
+  }
+
+  .connection-bs-text p {
+    width: 55%;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+  }
+
+  .collaboration-bs {
+    padding: 41px 0 32px 1.5%;
+  }
+
+  .collaboration-bs-text {
+    width: 65%;
+  }
+
+  .collaboration-bs-text h3 {
+    font-size: 32px;
+    margin-top: -3px;
+    padding-bottom: 20px;
+  }
+
+  .collaboration-bs-text p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+
+  .growth-bs {
+    padding: 41px 0 31px 1.5%;
+  }
+
+  .growth-bs-text {
+    width: 56%;
+  }
+
+  .growth-bs-text h3 {
+    font-size: 32px;
+    margin-top: -5px;
+  }
+
+  .growth-bs-text p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2.12px;
+    margin-left: -30px;
+  }
+
+  .be-active {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .container-foto {
+    max-width: 768px;
+  }
+
+  .rectangle-ba {
+    width: 116px;
+    top: 55%;
+    left: 32px;
+    margin: 0;
+  }
+
+  .block-ba {
+    padding: 43px 44px 41px 45px;
+  }
+
+  .be-active-text h2 {
+    padding: 90px 0 33px 26px;
+  }
+
+  .be-active-text p {
+    width: 89%;
+    padding-bottom: 97px;
+    padding-left: 31px;
+  }
+
+  .find-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .rectangle-fc {
+    width: 116px;
+    top: 54%;
+    left: 32px;
+    margin: 0;
+  }
+
+  .block-fc {
+    padding: 43px 44px 43px 45px;
+  }
+
+  .find-contact-text {
+    width: 88%;
+  }
+
+  .find-contact-text h2 {
+    padding: 81px 0 33px 26px;
+  }
+
+  .find-contact-text p {
+    padding-bottom: 104px;
+    padding-left: 34px;
+  }
+
+  .work-it {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .rectangle-wi {
+    width: 116px;
+    top: 52%;
+    left: 32px;
+    margin: 0;
+  }
+
+  .block-wi {
+    padding: 43px 44px 44px 45px;
+  }
+
+  .work-it-text h2 {
+    padding: 84px 0 31px 33px;
+  }
+
+  .work-it-text p {
+    width: 89%;
+    padding-bottom: 111px;
+    padding-left: 32px;
+  }
+
+  .footer-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  #footer-logo-icon {
+    padding: 143px 15px 0 47px;
+  }
+
+  .footer-text {
+    padding: 73px 0 0 10px;
+  }
+
+  .footer-text h2 {
+    line-height: 52px;
+  }
+
+  .footer-text p {
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: -1.3px;
+    padding-left: 32px;
+  }
+
+  .footer-download-apps {
+    margin-top: 271px;
+    margin-bottom: 12px;
+  }
+
+  .footer-app-store a {
+    margin-right: 32px;
+  }
+}
+@media (max-width: 730px) {
+  .footballer {
+    left: -95%;
+  }
+
+  .basketballer {
+    right: -95%;
+  }
+
+  .rectangle-fc {
+    top: 53%;
+  }
+
+  .footer-text h2 {
+    font-size: 71px;
+  }
+
+  .footer-text p {
+    padding-left: 0;
+  }
+}
+@media (max-width: 714px) {
+  .rectangle-ba {
+    top: 52%;
+  }
+
+  .rectangle-fc {
+    top: 50%;
+  }
+}
+@media (max-width: 669px) {
+  .rectangle-fc {
+    top: 46%;
+  }
+
+  .rectangle-wi {
+    top: 48%;
+  }
+}
+@media (max-width: 667px) {
+  .find-contact-text {
+    width: 95%;
+  }
+
+  .footer-text p {
+    padding-left: 0;
+  }
+
+  .footer-text h2 {
+    font-size: 71px;
+  }
+}
+@media (max-width: 660px) {
+  #logo-svg {
+    width: 133px;
+    height: 36px;
+    padding-top: 33px;
+  }
+
+  .top-text-up h2 {
+    font-size: 28px;
+    line-height: 31.32px;
+    padding: 132px 0 20px 18px;
+  }
+
+  .top-text-up-down h2 {
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 33px;
+    padding-bottom: 82px;
+    padding-left: 20%;
+  }
+
+  .download-apps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 83px;
+  }
+
+  .app-store a {
+    width: 280px;
+    height: 36px;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  #apple {
+    width: 23px;
+    height: 24px;
+    margin-left: -3px;
+  }
+
+  .app-text {
+    padding-left: 6px;
+  }
+
+  .app-store p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .app-store span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  .google-play a {
+    width: 280px;
+    height: 36px;
+  }
+
+  #play {
+    width: 22px;
+    height: 24px;
+    padding-left: 36px;
+  }
+
+  .play-text {
+    padding-left: 8px;
+  }
+
+  .google-play p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .google-play span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  .athlets-text h2 {
+    text-align: start;
+    font-size: 50px;
+    padding: 14px 0 40px 21px;
+  }
+
+  .footballer {
+    width: 250px;
+    height: 400px;
+    top: -50%;
+    left: 0;
+  }
+
+  .connection {
+    width: 98%;
+    padding: 81% 0 51px 9px;
+  }
+
+  .connection-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .rectangle {
+    width: 17px;
+    height: 4px;
+  }
+
+  .connection-text h3 {
+    font-size: 23px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+  }
+
+  .connection-text p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: -23px;
+  }
+
+  .collaboration {
+    padding: 55px 0 51px 10px;
+  }
+
+  .collaboration-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .collaboration-text h3 {
+    font-size: 23px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+  }
+
+  .collaboration-text p {
+    width: 97%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    margin-left: -23px;
+  }
+
+  .growth {
+    padding: 55px 0 52px 10px;
+  }
+
+  .rectangle-bg {
+    width: 17px;
+    height: 4px;
+  }
+
+  .growth-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .growth-text h3 {
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .growth-text p {
+    width: 98%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-left: -26px;
+  }
+
+  .player-text h2 {
+    text-align: start;
+    font-size: 50px;
+    padding: 14px 0 40px 16px;
+  }
+
+  .basketballer {
+    width: 400px;
+    height: 328px;
+    top: -50%;
+    left: 0;
+    right: 0;
+  }
+
+  .connection-bs {
+    padding: 83.5% 0 51px 3px;
+    margin-top: -70px;
+  }
+
+  .connection-bs-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .rectangle-bs {
+    width: 17px;
+    height: 4px;
+  }
+
+  .connection-bs-text h3 {
+    font-size: 23px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+  }
+
+  .connection-bs-text p {
+    width: 93%;
+    font-size: 15px;
+    letter-spacing: 0.95px;
+    line-height: 18px;
+    margin-left: -25px;
+  }
+
+  .collaboration-bs {
+    padding: 55px 0 53px 0;
+  }
+
+  .collaboration-bs-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .collaboration-bs-text {
+    width: 100%;
+  }
+
+  .collaboration-bs-text h3 {
+    font-size: 23px;
+    letter-spacing: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .collaboration-bs-text p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    margin-left: -27px;
+  }
+
+  .growth-bs {
+    padding: 51px 0 51px 0;
+  }
+
+  .rectangle-bs-bg {
+    width: 17px;
+    height: 4px;
+  }
+
+  .growth-bs-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .growth-bs-text {
+    width: 98%;
+  }
+
+  .growth-bs-text h3 {
+    font-size: 23px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+  }
+
+  .growth-bs-text p {
+    width: 97%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    margin-left: -28px;
+  }
+
+  .container-foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .foto-ba {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: -3rem;
+    overflow: hidden;
+    height: 352px;
+  }
+
+  .rectangle-ba {
+    top: 55%;
+    left: 20px;
+  }
+
+  .block-ba {
+    width: 38px;
+    padding: 25px 6px 23px 27px;
+  }
+
+  .block-ba p {
+    font-size: 14px;
+  }
+
+  .rectangle-one {
+    width: 16px;
+    height: 4px;
+    margin-top: 2px;
+  }
+
+  .be-active-text h2 {
+    font-size: 28px;
+    padding: 15px 0 0 17px;
+  }
+
+  .be-active-text p {
+    width: 79%;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 19px;
+    padding-bottom: 77px;
+  }
+
+  .foto-fc {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: 0;
+    overflow: hidden;
+    height: 351px;
+  }
+
+  .rectangle-fc {
+    top: 55%;
+    left: 20px;
+  }
+
+  .block-fc {
+    width: 38px;
+    padding: 28px 6px 23px 27px;
+  }
+
+  .block-fc p {
+    font-size: 14px;
+  }
+
+  .rectangle-two {
+    width: 16px;
+    height: 4px;
+    margin-top: 2px;
+  }
+
+  .find-contact-text {
+    width: 100%;
+  }
+
+  .find-contact-text h2 {
+    font-size: 28px;
+    padding: 15px 0 4px 17px;
+  }
+
+  .find-contact-text p {
+    width: 93%;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 19px;
+    padding-bottom: 77px;
+  }
+
+  .foto-wi {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: 0;
+    overflow: hidden;
+    height: 351px;
+  }
+
+  .rectangle-wi {
+    top: 25%;
+  }
+
+  .rectangle-wi {
+    top: 55%;
+    left: 20px;
+  }
+
+  .block-wi {
+    width: 38px;
+    padding: 23px 6px 23px 27px;
+  }
+
+  .block-wi p {
+    font-size: 14px;
+  }
+
+  .rectangle-three {
+    width: 16px;
+    height: 4px;
+    margin-top: 2px;
+  }
+
+  .work-it-text h2 {
+    font-size: 28px;
+    padding: 18px 0 1px 21px;
+  }
+
+  .work-it-text p {
+    width: 93%;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 19px;
+    padding-bottom: 66px;
+  }
+
+  #footer-logo-icon {
+    width: 72px;
+    padding: 77px 15px 0 32px;
+  }
+
+  .footer-text {
+    margin: 0 auto;
+    padding: 28px 0 0 0;
+  }
+
+  .footer-text h2 {
+    font-size: 32px;
+    letter-spacing: 1.6px;
+    line-height: 5px;
+  }
+
+  .footer-text p {
+    font-size: 14px;
+    line-height: 58px;
+    letter-spacing: 0.3px;
+    padding-left: 5px;
+  }
+
+  .footer-download-apps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 51px;
+  }
+
+  .footer-app-store a {
+    width: 280px;
+    height: 36px;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  #footer-apple {
+    width: 23px;
+    height: 24px;
+    margin-left: -3px;
+  }
+
+  .footer-app-text {
+    padding-left: 6px;
+  }
+
+  .footer-app-store p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-app-store span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-google-play a {
+    width: 280px;
+    height: 36px;
+  }
+
+  #footer-play {
+    width: 22px;
+    height: 24px;
+    padding-left: 36px;
+  }
+
+  .footer-play-text {
+    padding-left: 8px;
+  }
+
+  .footer-google-play p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-google-play span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  #footer-logo-svg {
+    width: 133px;
+    padding-top: 61px;
+  }
+}
+@media (max-width: 407px) {
+  .footballer {
+    width: 174px;
+    height: 281px;
+    top: -56%;
+    left: 0;
+  }
+
+  .basketballer {
+    width: 302px;
+    height: 248px;
+    top: -56%;
+    left: 0;
+    right: 0;
+  }
+
+  .rectangle-ba {
+    top: 54%;
+  }
+
+  .rectangle-wi {
+    top: 53%;
+  }
+}
+@media (max-width: 320px) {
+  #logo-svg {
+    width: 133px;
+    height: 36px;
+    padding-top: 33px;
+  }
+
+  .top-text-up h2 {
+    font-size: 28px;
+    line-height: 31.32px;
+    padding: 132px 0 20px 18px;
+  }
+
+  .top-text-up-down h2 {
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 33px;
+    padding-bottom: 82px;
+    padding-left: 20%;
+  }
+
+  .download-apps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 83px;
+  }
+
+  .app-store a {
+    width: 280px;
+    height: 36px;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  #apple {
+    width: 23px;
+    height: 24px;
+    margin-left: -3px;
+  }
+
+  .app-text {
+    padding-left: 6px;
+  }
+
+  .app-store p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .app-store span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  .google-play a {
+    width: 280px;
+    height: 36px;
+  }
+
+  #play {
+    width: 22px;
+    height: 24px;
+    padding-left: 36px;
+  }
+
+  .play-text {
+    padding-left: 8px;
+  }
+
+  .google-play p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .google-play span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  .athlets-text h2 {
+    text-align: start;
+    font-size: 50px;
+    padding: 14px 0 40px 21px;
+  }
+
+  .footballer {
+    width: 174px;
+    height: 281px;
+    top: -56%;
+    left: 0;
+  }
+
+  .connection {
+    width: 98%;
+    padding: 81% 0 51px 9px;
+  }
+
+  .connection-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .rectangle {
+    width: 17px;
+    height: 4px;
+  }
+
+  .connection-text h3 {
+    font-size: 23px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+  }
+
+  .connection-text p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: -23px;
+  }
+
+  .collaboration {
+    padding: 55px 0 51px 10px;
+  }
+
+  .collaboration-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .collaboration-text h3 {
+    font-size: 23px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+  }
+
+  .collaboration-text p {
+    width: 97%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    margin-left: -23px;
+  }
+
+  .growth {
+    padding: 55px 0 52px 10px;
+  }
+
+  .rectangle-bg {
+    width: 17px;
+    height: 4px;
+  }
+
+  .growth-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .growth-text h3 {
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .growth-text p {
+    width: 98%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-left: -26px;
+  }
+
+  .player-text h2 {
+    text-align: start;
+    font-size: 50px;
+    padding: 14px 0 40px 16px;
+  }
+
+  .basketballer {
+    width: 302px;
+    height: 248px;
+    top: -56%;
+    left: 0;
+    right: 0;
+  }
+
+  .connection-bs {
+    padding: 105.5% 0 51px 3px;
+  }
+
+  .connection-bs-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .rectangle-bs {
+    width: 17px;
+    height: 4px;
+  }
+
+  .connection-bs-text h3 {
+    font-size: 23px;
+    padding-top: 3px;
+    padding-bottom: 18px;
+  }
+
+  .connection-bs-text p {
+    width: 93%;
+    font-size: 15px;
+    letter-spacing: 0.95px;
+    line-height: 18px;
+    margin-left: -25px;
+  }
+
+  .collaboration-bs {
+    padding: 55px 0 53px 0;
+  }
+
+  .collaboration-bs-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .collaboration-bs-text {
+    width: 100%;
+  }
+
+  .collaboration-bs-text h3 {
+    font-size: 23px;
+    letter-spacing: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .collaboration-bs-text p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    margin-left: -27px;
+  }
+
+  .growth-bs {
+    padding: 51px 0 51px 0;
+  }
+
+  .rectangle-bs-bg {
+    width: 17px;
+    height: 4px;
+  }
+
+  .growth-bs-bg p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .growth-bs-text {
+    width: 98%;
+  }
+
+  .growth-bs-text h3 {
+    font-size: 23px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+  }
+
+  .growth-bs-text p {
+    width: 97%;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.3px;
+    margin-left: -28px;
+  }
+
+  .container-foto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .foto-ba {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: -3rem;
+    overflow: hidden;
+    height: 352px;
+  }
+
+  .rectangle-ba {
+    top: 52%;
+    left: 20px;
+  }
+
+  .block-ba {
+    width: 38px;
+    padding: 25px 6px 23px 27px;
+  }
+
+  .block-ba p {
+    font-size: 14px;
+  }
+
+  .rectangle-one {
+    width: 16px;
+    height: 4px;
+    margin-top: 2px;
+  }
+
+  .be-active-text h2 {
+    font-size: 28px;
+    padding: 15px 0 0 17px;
+  }
+
+  .be-active-text p {
+    width: 79%;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 19px;
+    padding-bottom: 77px;
+  }
+
+  .foto-fc {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: 0;
+    overflow: hidden;
+    height: 351px;
+  }
+
+  .rectangle-fc {
+    top: 53%;
+    left: 20px;
+  }
+
+  .block-fc {
+    width: 38px;
+    padding: 28px 6px 23px 27px;
+  }
+
+  .block-fc p {
+    font-size: 14px;
+  }
+
+  .rectangle-two {
+    width: 16px;
+    height: 4px;
+    margin-top: 2px;
+  }
+
+  .find-contact-text {
+    width: 100%;
+  }
+
+  .find-contact-text h2 {
+    font-size: 28px;
+    padding: 19px 0 1px 17px;
+  }
+
+  .find-contact-text p {
+    width: 93%;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 19px;
+    padding-bottom: 77px;
+  }
+
+  .foto-wi {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-left: 0;
+    overflow: hidden;
+    height: 351px;
+  }
+
+  .rectangle-wi {
+    top: 25%;
+  }
+
+  .rectangle-wi {
+    top: 51%;
+    left: 20px;
+  }
+
+  .block-wi {
+    width: 38px;
+    padding: 23px 6px 23px 27px;
+  }
+
+  .block-wi p {
+    font-size: 14px;
+  }
+
+  .rectangle-three {
+    width: 16px;
+    height: 4px;
+    margin-top: 2px;
+  }
+
+  .work-it-text h2 {
+    font-size: 28px;
+    padding: 18px 0 1px 21px;
+  }
+
+  .work-it-text p {
+    width: 93%;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    padding-left: 19px;
+    padding-bottom: 66px;
+  }
+
+  #footer-logo-icon {
+    width: 72px;
+    padding: 77px 15px 0 32px;
+  }
+
+  .footer-text {
+    margin: 0 auto;
+    padding: 28px 0 0 0;
+  }
+
+  .footer-text h2 {
+    font-size: 32px;
+    letter-spacing: 1.6px;
+    line-height: 5px;
+  }
+
+  .footer-text p {
+    font-size: 14px;
+    line-height: 58px;
+    letter-spacing: 0.3px;
+    padding-left: 5px;
+  }
+
+  .footer-download-apps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 51px;
+  }
+
+  .footer-app-store a {
+    width: 280px;
+    height: 36px;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  #footer-apple {
+    width: 23px;
+    height: 24px;
+    margin-left: -3px;
+  }
+
+  .footer-app-text {
+    padding-left: 6px;
+  }
+
+  .footer-app-store p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-app-store span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-google-play a {
+    width: 280px;
+    height: 36px;
+  }
+
+  #footer-play {
+    width: 22px;
+    height: 24px;
+    padding-left: 36px;
+  }
+
+  .footer-play-text {
+    padding-left: 8px;
+  }
+
+  .footer-google-play p {
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-google-play span {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+
+  #footer-logo-svg {
+    width: 133px;
+    padding-top: 61px;
+  }
+}
