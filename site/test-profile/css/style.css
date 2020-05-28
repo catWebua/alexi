@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 360px;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+}
+
+.arrow-back{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.3);
+    left: 16px;
+    top: 16px;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 13%;
+    left: 0;
+    right: 0;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 0;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 0 1.5px;
+    z-index: 10;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #FFFFFF;
+}
+
+.arrow-back a{
+    height: 16px;
+}
+
+.container-card{
+    position: relative;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    margin-top: -10%;
+    padding: 0 16px;
+    z-index: 100;
+}
+
+.container-card-title{
+    display: flex;
+    align-items: center;
+    padding: 16px 0 6px 0;
+}
+
+.container-card-title h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 0 8px;
+}
+
+.dot-green{
+    background: #10B56B;
+    width: 7px;
+    height: 7px;
+    border-radius: 10px;
+}
+
+.container-card p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.text-drop span{
+    display: block;
+}
+
+.container-card-info, .container-card-extend-info-all{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-card-extend-info-all{
+    padding-left: 6px;
+}
+
+.container-card-extend-info{
+    padding: 26px 0 12px 0;
+}
+
+.container-card-extend-info h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-card-info-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F4F4;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 8px 12px;
+}
+
+.container-card-info-one:hover{
+    background-color: #2196F3;
+}
+
+.container-card-info-one:hover p{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.container-card-info-one:hover svg path{
+    fill: #FFFFFF;
+}
+
+svg path{
+    fill: #848484;
+}
+
+.container-card-info-one svg:hover path{
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.container-card-info-one p:hover{
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+.container-card-info-one p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #848484;
+    padding-left: 8px;
+    padding-bottom: 0;
+}
+
+.container-card-text{
+    margin: 24px 0 20px 0;
+}
+
+.container-card-text-one{
+    margin-bottom: 16px;
+}
+
+.container-card-text-one p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #848484;
+    padding-bottom: 7px;
+}
+
+.container-card-text-one h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container-card-text-one-img{
+    display: flex;
+    align-items: self-start;
+}
+
+.container-card-text-one-img h4{
+    padding-left: 12px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer button{
+    width: 328px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #848484;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #848484;
+    cursor: pointer;
+}
+
+footer button:hover{
+    background-color: #2196F3;
+    border-color: transparent;
+    color: #FFFFFF;
+}
+
+.heart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 28px;
+    cursor: pointer;
+    margin: 24px 0 32px 0;
+}
+
+.heart svg path{
+    fill: #D8CBF9;
+    transition: fill 9999999s;
+}
+
+.heart svg path:active{
+    fill: red;
+    transition: fill 0s;
+}
