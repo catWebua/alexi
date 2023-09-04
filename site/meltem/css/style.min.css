@@ -553,7 +553,7 @@ sup {
 }
 .popup__body .formStyle .phone-block::before {
   content: "";
-  background-image: url("../../images/flag.jpg");
+  background-image: url("./images/flag.jpg");
   background-size: 30px auto;
   background-repeat: no-repeat;
   position: absolute;
